@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+           /* display: grid;
+            place-items: center;*/
+            display: flex;
+           justify-content: center;  
+           align-items: center;
+           height: 100vh;
+           margin: 0;
+        }
+        .titulo{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            border: 4px solid black;
+            border-radius:  10px;
+            height: 70 px;
+            width: 150px;
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
+            margin-top: -15px;
+        }
+        .carta{
+           
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: cadetblue;
+            border: 4px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height: 450px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           
+        }
+        img{
+            margin-top: 30px;
+        }
+        img:hover{
+            margin-top: 30px;
+            transform: scale(1.2);
+        }
+        .textoCarta{
+            margin: 20px;
+        }
+
+    </style>
+    <title>Carta Pokemon</title>
+</head>
+<body>
+    <div>
+        <div class="carta">
+            <div class="titulo">Pachirisu </div>
+            <div> <img src="poke.png" alt="Pachirisu" height="150px"></div>
+            <div> 
+                <div class="textoCarta">
+                    <p>Tipo: Eléctrico</p>
+                    <p>Debilidad: Tierra</p>
+                    <p>Altura: 0,4 mts</p>
+                    <p>Peso: 3,9 Kg</p>
+                    <p>Forma parte del grupo de Pokémon que posee bolsas de electricidad en las mejillas. Descarga por la cola la electricidad que acumula.</p>
+
+                </div>
+                
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
